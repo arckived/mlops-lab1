@@ -4,7 +4,7 @@ from src import converters, analyzer
 from src.main import main
 
 
-# ---------- Converter tests ----------
+#Converter tests
 
 @pytest.mark.parametrize("c, f", [(0, 32.0), (100, 212.0), (-40, -40.0), (37, 98.6)])
 def test_celsius_to_fahrenheit(c, f):
@@ -40,7 +40,7 @@ def test_classify_wind(speed, label):
     assert converters.classify_wind(speed) == label
 
 
-# ---------- Analyzer tests ----------
+# Analyzer tests 
 
 @pytest.fixture
 def records():
@@ -84,7 +84,7 @@ def test_city_summary(records):
     assert summary["days"] == 5
 
 
-# ---------- App test ----------
+#  App test 
 
 def test_main_prints_report(capsys):
     main(["--city", "Miami"])
