@@ -1,5 +1,5 @@
 # mlops-lab1
-# Weather Analytics App with GitHub Actions
+# Weather Analytics App 
 
 A Python command line application that analyzes weather data and generates city weather reports, with automated testing through GitHub Actions.
 
