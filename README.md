@@ -12,5 +12,5 @@ A Python command line application that analyzes weather data and generates city 
 * Validates input and raises clear errors for invalid values
 
 ## Dataset
-`data/weather.csv` contains five days of weather readings for Boston and Miami with the columns `date`, `city`, `temp_c`, `humidity` and `wind_kmh`.
+data/weather.csv contains five days of weather readings for Boston and Miami with the columns date, city, temp_c, humidity and wind_kmh.
 
